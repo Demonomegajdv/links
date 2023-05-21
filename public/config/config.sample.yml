@@ -1,0 +1,51 @@
+# Config version
+version: 0.3.7
+
+# HODL username
+username: "lacrypta" # should turn into YOUR_HANDLE@hodl.ar and YOUR_HANDLE.hodl.ar
+
+# HTML Head settings
+html:
+  title: "La Crypta | Links"
+  google_analytics: "GTM-WZGV6DS"
+  description: "HTML Link Description"
+
+# NOSTR Settings
+nostr:
+  # handle: "YOUR_HANDLE" # should turn into YOUR_HANDLE@hodl.ar
+  # npub: "npubYOUR_PUB" # Your NOSTR NPub Key (Public) CAREFULL - Do not share nsec !
+
+# Theme settings
+theme:
+  background_color: "#f9fafb"
+
+# Main container settings
+main:
+  title: "LA CRYPTA"
+  # picture: "https://github.com/lacrypta/links/blob/main/public/images/profile.png?raw=true"
+
+# Blocks list
+blocks:
+  - title: "Instagram"
+    icon: "instagram"
+    url: "https://instagram.lacrypta.com.ar"
+
+  - title: "Discord"
+    icon: "discord"
+    url: "https://discord.lacrypta.com.ar"
+
+  - title: "Github"
+    icon: "github"
+    url: "https://github.lacrypta.com.ar"
+
+  - title: "Twitter"
+    icon: "twitter"
+    url: "https://twitter.lacrypta.com.ar"
+
+  - title: "Sitio Web"
+    icon: "url"
+    url: "https://www.lacrypta.com.ar/"
+
+  - title: "WhatsApp"
+    icon: "whatsapp"
+    url: "https://api.whatsapp.com/send/?phone=%2B541131080456&text=Hola+como+estan&type=phone_number&app_absent=0"
